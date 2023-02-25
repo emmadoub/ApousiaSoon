@@ -132,6 +132,15 @@ a:active {
 }
 
 @media (max-width: 1135px) {
+
+  @keyframes horizontal-line {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
   #text-soon {
     font-size: 20px;
   }
